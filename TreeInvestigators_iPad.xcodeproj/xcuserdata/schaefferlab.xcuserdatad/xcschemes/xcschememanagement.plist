@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TreeInvestigators_iPad.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>9589EC351D09C2A200F56929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9589EC4B1D09C2A200F56929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9589EC561D09C2A200F56929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
