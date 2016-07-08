@@ -14,9 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+    func application(application: UIApplication,
+                     supportedInterfaceOrientationsForWindow window: UIWindow?)
+        -> UIInterfaceOrientationMask {
+            if UIDevice.currentDevice().userInterfaceIdiom == .Pad {
+                return .Landscape
+            } else {
+                return .Portrait
+            }
     }
 
     func applicationWillResignActive(application: UIApplication) {

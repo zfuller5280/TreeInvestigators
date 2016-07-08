@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952A8F691D1C71ED0059004C /* 1466728626_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A8F681D1C71ED0059004C /* 1466728626_info.png */; };
+		952A8F6B1D1C72680059004C /* 1466728752_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A8F6A1D1C72680059004C /* 1466728752_info.png */; };
+		952A8F6D1D1C9CFA0059004C /* cam_back2.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A8F6C1D1C9CFA0059004C /* cam_back2.png */; };
+		952A8F6F1D1C9DC20059004C /* pine_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A8F6E1D1C9DC20059004C /* pine_back.png */; };
+		952A8F711D1CB66F0059004C /* dec_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A8F701D1CB66F0059004C /* dec_back.png */; };
+		952A8F731D240C080059004C /* TreeID2_icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A8F721D240C080059004C /* TreeID2_icon-2.png */; };
+		952A8F751D2474790059004C /* choosePic-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A8F741D2474790059004C /* choosePic-01.png */; };
+		952A8F771D2476D40059004C /* text_box_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A8F761D2476D40059004C /* text_box_info.png */; };
+		952A8F791D25A7A50059004C /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952A8F781D25A7A50059004C /* CheckListViewController.swift */; };
+		953CAE2D1D0CB36A00690DC7 /* mature_pine_box_text2.png in Resources */ = {isa = PBXBuildFile; fileRef = 953CAE2C1D0CB36A00690DC7 /* mature_pine_box_text2.png */; };
+		953CAE2F1D0CB51200690DC7 /* pine_cone_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 953CAE2E1D0CB51200690DC7 /* pine_cone_zoom.png */; };
+		953CAE311D0CB82100690DC7 /* snag_pine_box_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 953CAE301D0CB82100690DC7 /* snag_pine_box_text.png */; };
+		953CAE331D0DEA4C00690DC7 /* photo-collage_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 953CAE321D0DEA4C00690DC7 /* photo-collage_v2.png */; };
+		953CAE351D0DEDA000690DC7 /* takePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 953CAE341D0DEDA000690DC7 /* takePic.png */; };
+		953CAE371D105F6400690DC7 /* save-icon-new-final.png in Resources */ = {isa = PBXBuildFile; fileRef = 953CAE361D105F6400690DC7 /* save-icon-new-final.png */; };
 		9589EC3A1D09C2A200F56929 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC391D09C2A200F56929 /* AppDelegate.swift */; };
 		9589EC3C1D09C2A200F56929 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC3B1D09C2A200F56929 /* FirstViewController.swift */; };
 		9589EC3E1D09C2A200F56929 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC3D1D09C2A200F56929 /* SecondViewController.swift */; };
@@ -15,6 +30,45 @@
 		9589EC461D09C2A200F56929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC441D09C2A200F56929 /* LaunchScreen.storyboard */; };
 		9589EC511D09C2A200F56929 /* TreeInvestigators_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC501D09C2A200F56929 /* TreeInvestigators_iPadTests.swift */; };
 		9589EC5C1D09C2A200F56929 /* TreeInvestigators_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC5B1D09C2A200F56929 /* TreeInvestigators_iPadUITests.swift */; };
+		9589EC6A1D09C61000F56929 /* welcome_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC691D09C61000F56929 /* welcome_screen.png */; };
+		9589EC6D1D09C7D400F56929 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC6C1D09C7D400F56929 /* background.png */; };
+		9589EC6F1D09CBEA00F56929 /* cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC6E1D09CBEA00F56929 /* cycle.png */; };
+		9589EC721D09CD8000F56929 /* oak_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC701D09CD8000F56929 /* oak_button.png */; };
+		9589EC731D09CD8000F56929 /* pine_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC711D09CD8000F56929 /* pine_button.png */; };
+		9589EC751D09EB0700F56929 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC741D09EB0700F56929 /* title.png */; };
+		9589EC771D09EF4900F56929 /* deciduous-oak.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC761D09EF4900F56929 /* deciduous-oak.png */; };
+		9589EC791D09EFB700F56929 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC781D09EFB700F56929 /* back.png */; };
+		9589EC7B1D09F37200F56929 /* OakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC7A1D09F37200F56929 /* OakViewController.swift */; };
+		9589EC7D1D09FE2100F56929 /* DimBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC7C1D09FE2100F56929 /* DimBackground.swift */; };
+		9589EC7F1D09FEDA00F56929 /* text_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC7E1D09FEDA00F56929 /* text_box.png */; };
+		9589EC811D0A013000F56929 /* PopupModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC801D0A013000F56929 /* PopupModalView.swift */; };
+		9589EC831D0A15B000F56929 /* close_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC821D0A15B000F56929 /* close_button.png */; };
+		9589EC851D0A164900F56929 /* acorn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC841D0A164900F56929 /* acorn2.png */; };
+		9589EC871D0A211700F56929 /* text_box_acorn_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC861D0A211700F56929 /* text_box_acorn_text.png */; };
+		9589EC891D0A221200F56929 /* text_box_acorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC881D0A221200F56929 /* text_box_acorn.png */; };
+		9589EC8B1D0A23E000F56929 /* seedling_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC8A1D0A23E000F56929 /* seedling_text.png */; };
+		9589EC8D1D0AF59B00F56929 /* text_box_oaksap.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC8C1D0AF59B00F56929 /* text_box_oaksap.png */; };
+		9589EC8F1D0AFA1200F56929 /* text_box_mature_oak.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC8E1D0AFA1200F56929 /* text_box_mature_oak.png */; };
+		9589EC911D0AFFEB00F56929 /* oakFLOWER.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC901D0AFFEB00F56929 /* oakFLOWER.png */; };
+		9589EC931D0B08DF00F56929 /* text_box_flower_oak.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC921D0B08DF00F56929 /* text_box_flower_oak.png */; };
+		9589EC951D0B0B2400F56929 /* return.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC941D0B0B2400F56929 /* return.png */; };
+		9589EC971D0B0DD000F56929 /* text_box_oaksnag.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC961D0B0DD000F56929 /* text_box_oaksnag.png */; };
+		9589EC991D0B180C00F56929 /* PineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589EC981D0B180C00F56929 /* PineViewController.swift */; };
+		9589EC9B1D0B18C100F56929 /* coniferous_pine.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC9A1D0B18C100F56929 /* coniferous_pine.png */; };
+		9589EC9D1D0B1A3100F56929 /* pine_seeds_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC9C1D0B1A3100F56929 /* pine_seeds_box.png */; };
+		9589EC9F1D0C98B200F56929 /* pine_seedling_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589EC9E1D0C98B200F56929 /* pine_seedling_box.png */; };
+		9589ECA11D0C9B1600F56929 /* box_pine_sap.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589ECA01D0C9B1600F56929 /* box_pine_sap.png */; };
+		9589ECA31D0C9B8D00F56929 /* spruce-sapling.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589ECA21D0C9B8D00F56929 /* spruce-sapling.png */; };
+		9589ECA51D0C9C8E00F56929 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589ECA41D0C9C8E00F56929 /* ZoomViewController.swift */; };
+		9589ECA71D0C9F2C00F56929 /* sapling_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589ECA61D0C9F2C00F56929 /* sapling_zoom.png */; };
+		9589ECA91D0CA90100F56929 /* mature_pine_box_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589ECA81D0CA90100F56929 /* mature_pine_box_text.png */; };
+		9589ECAB1D0CAADC00F56929 /* pinecone_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9589ECAA1D0CAADC00F56929 /* pinecone_button.png */; };
+		95A8C4D01D25CFEC00D495CC /* 1467342515_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 95A8C4CF1D25CFEC00D495CC /* 1467342515_check.png */; };
+		95A8C4D21D25D22B00D495CC /* CheckListTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A8C4D11D25D22B00D495CC /* CheckListTableController.swift */; };
+		95E2AAA41D1322B9004B166A /* pinecone_button_small-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E2AAA31D1322B8004B166A /* pinecone_button_small-01.png */; };
+		95E2AAA61D132C2D004B166A /* clear_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E2AAA51D132C2D004B166A /* clear_icon.png */; };
+		95E881861D2F1FEB0052D4D3 /* UITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E881851D2F1FEB0052D4D3 /* UITableView+Additions.swift */; };
+		95E8818C1D30262B0052D4D3 /* text_box_info2.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E8818B1D30262B0052D4D3 /* text_box_info2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +89,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		952A8F681D1C71ED0059004C /* 1466728626_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1466728626_info.png; sourceTree = "<group>"; };
+		952A8F6A1D1C72680059004C /* 1466728752_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1466728752_info.png; sourceTree = "<group>"; };
+		952A8F6C1D1C9CFA0059004C /* cam_back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cam_back2.png; sourceTree = "<group>"; };
+		952A8F6E1D1C9DC20059004C /* pine_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pine_back.png; sourceTree = "<group>"; };
+		952A8F701D1CB66F0059004C /* dec_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dec_back.png; sourceTree = "<group>"; };
+		952A8F721D240C080059004C /* TreeID2_icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TreeID2_icon-2.png"; sourceTree = "<group>"; };
+		952A8F741D2474790059004C /* choosePic-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choosePic-01.png"; sourceTree = "<group>"; };
+		952A8F761D2476D40059004C /* text_box_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_info.png; sourceTree = "<group>"; };
+		952A8F781D25A7A50059004C /* CheckListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
+		953CAE2C1D0CB36A00690DC7 /* mature_pine_box_text2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mature_pine_box_text2.png; sourceTree = "<group>"; };
+		953CAE2E1D0CB51200690DC7 /* pine_cone_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pine_cone_zoom.png; sourceTree = "<group>"; };
+		953CAE301D0CB82100690DC7 /* snag_pine_box_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snag_pine_box_text.png; sourceTree = "<group>"; };
+		953CAE321D0DEA4C00690DC7 /* photo-collage_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-collage_v2.png"; sourceTree = "<group>"; };
+		953CAE341D0DEDA000690DC7 /* takePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePic.png; sourceTree = "<group>"; };
+		953CAE361D105F6400690DC7 /* save-icon-new-final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save-icon-new-final.png"; sourceTree = "<group>"; };
 		9589EC361D09C2A200F56929 /* TreeInvestigators_iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeInvestigators_iPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9589EC391D09C2A200F56929 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9589EC3B1D09C2A200F56929 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +118,46 @@
 		9589EC571D09C2A200F56929 /* TreeInvestigators_iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeInvestigators_iPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9589EC5B1D09C2A200F56929 /* TreeInvestigators_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeInvestigators_iPadUITests.swift; sourceTree = "<group>"; };
 		9589EC5D1D09C2A200F56929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9589EC691D09C61000F56929 /* welcome_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_screen.png; sourceTree = "<group>"; };
+		9589EC6C1D09C7D400F56929 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		9589EC6E1D09CBEA00F56929 /* cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cycle.png; sourceTree = "<group>"; };
+		9589EC701D09CD8000F56929 /* oak_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oak_button.png; sourceTree = "<group>"; };
+		9589EC711D09CD8000F56929 /* pine_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pine_button.png; sourceTree = "<group>"; };
+		9589EC741D09EB0700F56929 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		9589EC761D09EF4900F56929 /* deciduous-oak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deciduous-oak.png"; sourceTree = "<group>"; };
+		9589EC781D09EFB700F56929 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		9589EC7A1D09F37200F56929 /* OakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OakViewController.swift; sourceTree = "<group>"; };
+		9589EC7C1D09FE2100F56929 /* DimBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimBackground.swift; sourceTree = "<group>"; };
+		9589EC7E1D09FEDA00F56929 /* text_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box.png; sourceTree = "<group>"; };
+		9589EC801D0A013000F56929 /* PopupModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupModalView.swift; sourceTree = "<group>"; };
+		9589EC821D0A15B000F56929 /* close_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_button.png; sourceTree = "<group>"; };
+		9589EC841D0A164900F56929 /* acorn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acorn2.png; sourceTree = "<group>"; };
+		9589EC861D0A211700F56929 /* text_box_acorn_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_acorn_text.png; sourceTree = "<group>"; };
+		9589EC881D0A221200F56929 /* text_box_acorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_acorn.png; sourceTree = "<group>"; };
+		9589EC8A1D0A23E000F56929 /* seedling_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seedling_text.png; sourceTree = "<group>"; };
+		9589EC8C1D0AF59B00F56929 /* text_box_oaksap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_oaksap.png; sourceTree = "<group>"; };
+		9589EC8E1D0AFA1200F56929 /* text_box_mature_oak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_mature_oak.png; sourceTree = "<group>"; };
+		9589EC901D0AFFEB00F56929 /* oakFLOWER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oakFLOWER.png; sourceTree = "<group>"; };
+		9589EC921D0B08DF00F56929 /* text_box_flower_oak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_flower_oak.png; sourceTree = "<group>"; };
+		9589EC941D0B0B2400F56929 /* return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return.png; sourceTree = "<group>"; };
+		9589EC961D0B0DD000F56929 /* text_box_oaksnag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_oaksnag.png; sourceTree = "<group>"; };
+		9589EC981D0B180C00F56929 /* PineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PineViewController.swift; sourceTree = "<group>"; };
+		9589EC9A1D0B18C100F56929 /* coniferous_pine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coniferous_pine.png; sourceTree = "<group>"; };
+		9589EC9C1D0B1A3100F56929 /* pine_seeds_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pine_seeds_box.png; sourceTree = "<group>"; };
+		9589EC9E1D0C98B200F56929 /* pine_seedling_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pine_seedling_box.png; sourceTree = "<group>"; };
+		9589ECA01D0C9B1600F56929 /* box_pine_sap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_pine_sap.png; sourceTree = "<group>"; };
+		9589ECA21D0C9B8D00F56929 /* spruce-sapling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spruce-sapling.png"; sourceTree = "<group>"; };
+		9589ECA41D0C9C8E00F56929 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		9589ECA61D0C9F2C00F56929 /* sapling_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sapling_zoom.png; sourceTree = "<group>"; };
+		9589ECA81D0CA90100F56929 /* mature_pine_box_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mature_pine_box_text.png; sourceTree = "<group>"; };
+		9589ECAA1D0CAADC00F56929 /* pinecone_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinecone_button.png; sourceTree = "<group>"; };
+		95A8C4CF1D25CFEC00D495CC /* 1467342515_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1467342515_check.png; sourceTree = "<group>"; };
+		95A8C4D11D25D22B00D495CC /* CheckListTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListTableController.swift; sourceTree = "<group>"; };
+		95A8C4D31D25F99500D495CC /* ufonts.com_marker-felt-wide.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ufonts.com_marker-felt-wide.ttf"; sourceTree = "<group>"; };
+		95E2AAA31D1322B8004B166A /* pinecone_button_small-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinecone_button_small-01.png"; sourceTree = "<group>"; };
+		95E2AAA51D132C2D004B166A /* clear_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear_icon.png; sourceTree = "<group>"; };
+		95E881851D2F1FEB0052D4D3 /* UITableView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Additions.swift"; sourceTree = "<group>"; };
+		95E8818B1D30262B0052D4D3 /* text_box_info2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_box_info2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +212,19 @@
 				9589EC3B1D09C2A200F56929 /* FirstViewController.swift */,
 				9589EC3D1D09C2A200F56929 /* SecondViewController.swift */,
 				9589EC3F1D09C2A200F56929 /* Main.storyboard */,
+				952A8F781D25A7A50059004C /* CheckListViewController.swift */,
+				9589ECA41D0C9C8E00F56929 /* ZoomViewController.swift */,
+				9589EC981D0B180C00F56929 /* PineViewController.swift */,
+				9589EC7C1D09FE2100F56929 /* DimBackground.swift */,
+				9589EC7A1D09F37200F56929 /* OakViewController.swift */,
+				9589EC801D0A013000F56929 /* PopupModalView.swift */,
+				95A8C4D11D25D22B00D495CC /* CheckListTableController.swift */,
+				95E881851D2F1FEB0052D4D3 /* UITableView+Additions.swift */,
 				9589EC421D09C2A200F56929 /* Assets.xcassets */,
 				9589EC441D09C2A200F56929 /* LaunchScreen.storyboard */,
 				9589EC471D09C2A200F56929 /* Info.plist */,
+				95A8C4D31D25F99500D495CC /* ufonts.com_marker-felt-wide.ttf */,
+				9589EC6B1D09C7C400F56929 /* Graphics */,
 			);
 			path = TreeInvestigators_iPad;
 			sourceTree = "<group>";
@@ -126,6 +245,59 @@
 				9589EC5D1D09C2A200F56929 /* Info.plist */,
 			);
 			path = TreeInvestigators_iPadUITests;
+			sourceTree = "<group>";
+		};
+		9589EC6B1D09C7C400F56929 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				952A8F741D2474790059004C /* choosePic-01.png */,
+				9589EC701D09CD8000F56929 /* oak_button.png */,
+				9589EC711D09CD8000F56929 /* pine_button.png */,
+				9589EC781D09EFB700F56929 /* back.png */,
+				952A8F761D2476D40059004C /* text_box_info.png */,
+				9589EC8A1D0A23E000F56929 /* seedling_text.png */,
+				9589EC861D0A211700F56929 /* text_box_acorn_text.png */,
+				952A8F721D240C080059004C /* TreeID2_icon-2.png */,
+				9589EC741D09EB0700F56929 /* title.png */,
+				9589ECA81D0CA90100F56929 /* mature_pine_box_text.png */,
+				9589EC901D0AFFEB00F56929 /* oakFLOWER.png */,
+				9589EC9C1D0B1A3100F56929 /* pine_seeds_box.png */,
+				952A8F6A1D1C72680059004C /* 1466728752_info.png */,
+				9589ECA01D0C9B1600F56929 /* box_pine_sap.png */,
+				953CAE2E1D0CB51200690DC7 /* pine_cone_zoom.png */,
+				95E2AAA51D132C2D004B166A /* clear_icon.png */,
+				952A8F681D1C71ED0059004C /* 1466728626_info.png */,
+				95A8C4CF1D25CFEC00D495CC /* 1467342515_check.png */,
+				952A8F6E1D1C9DC20059004C /* pine_back.png */,
+				952A8F701D1CB66F0059004C /* dec_back.png */,
+				953CAE341D0DEDA000690DC7 /* takePic.png */,
+				952A8F6C1D1C9CFA0059004C /* cam_back2.png */,
+				9589ECAA1D0CAADC00F56929 /* pinecone_button.png */,
+				95E2AAA31D1322B8004B166A /* pinecone_button_small-01.png */,
+				953CAE301D0CB82100690DC7 /* snag_pine_box_text.png */,
+				9589EC8E1D0AFA1200F56929 /* text_box_mature_oak.png */,
+				9589EC961D0B0DD000F56929 /* text_box_oaksnag.png */,
+				9589EC9A1D0B18C100F56929 /* coniferous_pine.png */,
+				95E8818B1D30262B0052D4D3 /* text_box_info2.png */,
+				953CAE2C1D0CB36A00690DC7 /* mature_pine_box_text2.png */,
+				9589ECA21D0C9B8D00F56929 /* spruce-sapling.png */,
+				953CAE361D105F6400690DC7 /* save-icon-new-final.png */,
+				9589EC9E1D0C98B200F56929 /* pine_seedling_box.png */,
+				9589EC941D0B0B2400F56929 /* return.png */,
+				9589ECA61D0C9F2C00F56929 /* sapling_zoom.png */,
+				953CAE321D0DEA4C00690DC7 /* photo-collage_v2.png */,
+				9589EC921D0B08DF00F56929 /* text_box_flower_oak.png */,
+				9589EC8C1D0AF59B00F56929 /* text_box_oaksap.png */,
+				9589EC881D0A221200F56929 /* text_box_acorn.png */,
+				9589EC841D0A164900F56929 /* acorn2.png */,
+				9589EC7E1D09FEDA00F56929 /* text_box.png */,
+				9589EC821D0A15B000F56929 /* close_button.png */,
+				9589EC691D09C61000F56929 /* welcome_screen.png */,
+				9589EC6C1D09C7D400F56929 /* background.png */,
+				9589EC761D09EF4900F56929 /* deciduous-oak.png */,
+				9589EC6E1D09CBEA00F56929 /* cycle.png */,
+			);
+			name = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +407,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9589EC851D0A164900F56929 /* acorn2.png in Resources */,
+				952A8F691D1C71ED0059004C /* 1466728626_info.png in Resources */,
+				9589EC931D0B08DF00F56929 /* text_box_flower_oak.png in Resources */,
+				9589EC6F1D09CBEA00F56929 /* cycle.png in Resources */,
+				953CAE2D1D0CB36A00690DC7 /* mature_pine_box_text2.png in Resources */,
+				9589EC8B1D0A23E000F56929 /* seedling_text.png in Resources */,
+				9589EC871D0A211700F56929 /* text_box_acorn_text.png in Resources */,
+				9589EC731D09CD8000F56929 /* pine_button.png in Resources */,
+				952A8F751D2474790059004C /* choosePic-01.png in Resources */,
+				953CAE351D0DEDA000690DC7 /* takePic.png in Resources */,
+				95A8C4D01D25CFEC00D495CC /* 1467342515_check.png in Resources */,
+				9589EC9B1D0B18C100F56929 /* coniferous_pine.png in Resources */,
+				9589EC8D1D0AF59B00F56929 /* text_box_oaksap.png in Resources */,
+				95E2AAA61D132C2D004B166A /* clear_icon.png in Resources */,
+				9589EC891D0A221200F56929 /* text_box_acorn.png in Resources */,
+				9589EC6A1D09C61000F56929 /* welcome_screen.png in Resources */,
+				952A8F771D2476D40059004C /* text_box_info.png in Resources */,
+				9589ECA91D0CA90100F56929 /* mature_pine_box_text.png in Resources */,
+				952A8F6B1D1C72680059004C /* 1466728752_info.png in Resources */,
+				9589EC6D1D09C7D400F56929 /* background.png in Resources */,
 				9589EC461D09C2A200F56929 /* LaunchScreen.storyboard in Resources */,
+				95E2AAA41D1322B9004B166A /* pinecone_button_small-01.png in Resources */,
+				952A8F6D1D1C9CFA0059004C /* cam_back2.png in Resources */,
 				9589EC431D09C2A200F56929 /* Assets.xcassets in Resources */,
+				953CAE331D0DEA4C00690DC7 /* photo-collage_v2.png in Resources */,
+				9589EC721D09CD8000F56929 /* oak_button.png in Resources */,
+				952A8F711D1CB66F0059004C /* dec_back.png in Resources */,
+				9589ECA31D0C9B8D00F56929 /* spruce-sapling.png in Resources */,
+				953CAE2F1D0CB51200690DC7 /* pine_cone_zoom.png in Resources */,
+				9589ECAB1D0CAADC00F56929 /* pinecone_button.png in Resources */,
+				9589ECA11D0C9B1600F56929 /* box_pine_sap.png in Resources */,
+				9589EC8F1D0AFA1200F56929 /* text_box_mature_oak.png in Resources */,
+				9589EC971D0B0DD000F56929 /* text_box_oaksnag.png in Resources */,
+				9589EC791D09EFB700F56929 /* back.png in Resources */,
+				9589EC911D0AFFEB00F56929 /* oakFLOWER.png in Resources */,
+				952A8F731D240C080059004C /* TreeID2_icon-2.png in Resources */,
+				952A8F6F1D1C9DC20059004C /* pine_back.png in Resources */,
+				9589EC7F1D09FEDA00F56929 /* text_box.png in Resources */,
+				95E8818C1D30262B0052D4D3 /* text_box_info2.png in Resources */,
+				9589ECA71D0C9F2C00F56929 /* sapling_zoom.png in Resources */,
+				9589EC9D1D0B1A3100F56929 /* pine_seeds_box.png in Resources */,
+				9589EC9F1D0C98B200F56929 /* pine_seedling_box.png in Resources */,
+				9589EC831D0A15B000F56929 /* close_button.png in Resources */,
+				9589EC771D09EF4900F56929 /* deciduous-oak.png in Resources */,
 				9589EC411D09C2A200F56929 /* Main.storyboard in Resources */,
+				953CAE371D105F6400690DC7 /* save-icon-new-final.png in Resources */,
+				953CAE311D0CB82100690DC7 /* snag_pine_box_text.png in Resources */,
+				9589EC751D09EB0700F56929 /* title.png in Resources */,
+				9589EC951D0B0B2400F56929 /* return.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +480,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9589EC7B1D09F37200F56929 /* OakViewController.swift in Sources */,
+				9589EC811D0A013000F56929 /* PopupModalView.swift in Sources */,
 				9589EC3E1D09C2A200F56929 /* SecondViewController.swift in Sources */,
+				95A8C4D21D25D22B00D495CC /* CheckListTableController.swift in Sources */,
 				9589EC3A1D09C2A200F56929 /* AppDelegate.swift in Sources */,
+				952A8F791D25A7A50059004C /* CheckListViewController.swift in Sources */,
+				9589EC991D0B180C00F56929 /* PineViewController.swift in Sources */,
 				9589EC3C1D09C2A200F56929 /* FirstViewController.swift in Sources */,
+				9589EC7D1D09FE2100F56929 /* DimBackground.swift in Sources */,
+				95E881861D2F1FEB0052D4D3 /* UITableView+Additions.swift in Sources */,
+				9589ECA51D0C9C8E00F56929 /* ZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +717,7 @@
 				9589EC621D09C2A200F56929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9589EC631D09C2A200F56929 /* Build configuration list for PBXNativeTarget "TreeInvestigators_iPadTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +726,7 @@
 				9589EC651D09C2A200F56929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9589EC661D09C2A200F56929 /* Build configuration list for PBXNativeTarget "TreeInvestigators_iPadUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +735,7 @@
 				9589EC681D09C2A200F56929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
