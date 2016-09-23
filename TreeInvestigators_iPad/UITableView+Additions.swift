@@ -2,7 +2,7 @@
 //  File.swift
 //  TreeInvestigators_iPad
 //
-//  Created by Steve Schaeffer on 7/7/16.
+//  Created by Zach Fuller on 7/7/16.
 //  Copyright © 2016 Zach Fuller. All rights reserved.
 //
 
